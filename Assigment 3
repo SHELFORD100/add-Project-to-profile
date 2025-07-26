@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #e8eaed;
+            }
+            header {
+                text-align: center;
+                padding: 40px;
+                background: linear-gradient(to right, #2c3e50, #3498db);
+                color: white;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            header h1 {
+                margin: 0;
+                color: #ffffff;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            }
+            header p {
+                color: #ecf0f1;
+                font-size: 1.2em;
+            }
+            section {
+                margin: 20px;
+                padding: 25px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+                transition: all 0.3s ease;
+            }
+            section:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            }
+            #skills {
+                border-left: 4px solid #3498db;
+            }
+            #experience {
+                border-left: 4px solid #2c3e50;
+            }
+            h2 {
+                color: #2c3e50;
+                margin-bottom: 20px;
+            }
+            ul li {
+                color: #34495e;
+                line-height: 1.8;
+                margin-bottom: 8px;
+            }
+            footer {
+                background: #2c3e50;
+                color: white;
+                padding: 30px;
+                text-align: center;
+            }
+            footer h2 {
+                color: white;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Shelford Pheeha Pheedi</h1>
+            <p>Paralegal</p>
+        </header>
+        <main>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Criminal Law</li>
+                    <li>Forensic Investigation</li>
+                    <li>Digital Evidence</li>
+                    <li>Report Writing</li>
+                    <li>Legal Drafting</li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Short Course Commercial Forensic Investigation - North West University (2023)</li>
+                    <li>Short Course Commercial Forensic Law - North West University (2022)</li>
+                    <li>Diploma in Paralegal - Dameline Correspondance (2021)</li>
+                    <li>National Certificate in Paralegal Practice - SASSETA (2018)</li>
+                    <li>Certificate in Criminal Justice - Dameline Correspondance (2014)</li>
+                    <li>Security Training Certificate - Grade A - Gabaza Security (2006)</li>
+                    <li>Grade 12 Senior Certificate - Westernburg High School (2005)</li>
+                </ul>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Assisted in legal administration</li>
+                    <li>Drafted legal documents and correspondence</li>
+                    <li>Managed case files and documentation</li>
+                    <li>Communicated with clients and legal professionals</li>
+                    <li>Maintained confidentiality of sensitive information</li>
+                    <li>Coordinated with court officials and other stakeholders</li>
+                    <li>Participated in client meetings and consultations</li>
+                    <li>Conducted community outreach</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: pshelford86@gmail.com</p>
+                <p>GitHub: <a href="https://github.com/SHELFORD100">SHELFORD100</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/shelford-pheeha-pheedi-123456789/">Shelford Pheeha Pheedi</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Shelford Pheeha Pheedi. All rights reserved.</p>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const experience = document.getElementById('experience');
+                experience.addEventListener('click', () => {
+                    alert('More details coming soon!');
+                });
+            });
+        </script>
+    </body>
+</html>
+
+

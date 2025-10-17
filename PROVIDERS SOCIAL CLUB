@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOCIAL PROVIDERS CLUB | Togetherness & Respect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
+
+  <header class="header" role="banner">
+    <div class="brand">
+      <div class="logo" aria-hidden="
+ <h1>SOCIAL PROVIDERS CLUB</h1>
+        <p>Togetherness & Respect Since 2015</p>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="constitution.html">Our Constitution</a>
+      <a href="announcements.html">Announcements</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+<main class="container" id="maincontent">
+    <section class="hero card fade-up" aria-labelledby="hero-heading">
+      <div class="left">
+        <h2 id="hero-heading">We Gather, Contribute, and Care — Since 2015</h2>
+        <p>SOCIAL PROVIDERS CLUB is a community stokvel started by men of Westernburg to support families, buy essentials in bulk, and build fellowship. We meet monthly and operate with transparency and respect.</p>
+        <p class="small">Monthly meetings: every 2nd Sunday | Contact: 076 883 1108 | Email: pshelford86@hotmail.com</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card fade-up">
+        <h3 class="section-title">How We Operate</h3>
+        <p class="small">Members contribute January–November. In December we purchase bulk groceries & meat and distribute equally. Members compare quotations before buying.</p>
+      </div>
+
+      <div class="card fade-up">
+        <h3 class="section-title">Quick Facts</h3>
+        <p class="small"><span class="kv">Founded:</span> 2015 • <span class="kv">Members:</span> 12+ • <span class="kv">Monthly:</span> R350</p>
+        <p class="small">Bank: FNB — Providers Social Stockvel — Acc: 63135095669 - Branch Code 250655</p>
+      </div>
+    </section>
+
+    <section class="card fade-up" aria-labelledby="join-heading">
+      <h3 id="join-heading">Join & Support</h3>
+      <p>Interested in joining or learning more? Use the Contact page to send a message. New members must be introduced and approved by the committee.</p>
+    </section>
+
+    <section class="card fade-up" aria-labelledby="cyber-heading">
+      <h3 id="cyber-heading">Cybersecurity & Accessibility</h3>
+      <p class="small">We prioritize:</p>
+      <ul class="small">
+        <li>Protecting members' personal and financial information.</li>
+        <li>Using secure communication channels for all club-related correspondence.</li>
+        <li>Regularly updating cybersecurity practices to safeguard against threats.</li>
+        <li>Accessibility for visually impaired members, including screen-reader support and skip links.</li>
+        <li>Reviewing constitution and security practices annually.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>© <span id="year"></span> SOCIAL PROVIDERS CLUB — Developed & Secured by <strong>SHELFORD100</strong></p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/Shelford.pheedi" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/pheedi-shelford-24a228208" target="_blank">LinkedIn</a>
+      <a href="https://www.github.com/SHELFORD100" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+:root {
+  --navy: #0b1a33;
+  --blue: #0a7be0;
+  --gold: #ffd700;
+  --white: #ffffff;
+  --focus: #00bfff;
+  --muted: #c0c0c0;
+  --card-bg: #0f274a;
+  --radius: 12px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--navy);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a { color: var(--gold); text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; outline: none; }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 0.5em;
+  z-index: 100;
+}
+
+.skip-link:focus { top: 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card-bg);
+  padding: 1em;
+  border-bottom: 2px solid var(--blue);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 18px;
+}
+
+.nav a { margin-left: 0.5em; padding: 0.4em 0.8em; border-radius: 6px; }
+.nav a.active { background: var(--blue); }
+
+.container { max-width: 1100px; margin
+
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 1em;
+  margin-top: 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hero { padding: 2em; margin-top: 1em; background: linear-gradient(90deg, #0a3d70, #0b1a33); border-radius: var(--radius); }
+.hero h2 { color: var(--gold); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; }
+
+.footer {
+  text-align: center;
+  background: var(--card-bg);
+  padding: 1em;
+  border-top: 2px solid var(--blue);
+}
+
+.footer .social-links a { margin: 0 0.5em; }
+
+button, .btn { background: var(--blue); color: var(--white); padding: 0.5em 1em; border: none; border-radius: 6px; cursor: pointer; }
+button:focus, .btn:focus { outline: 3px solid var(--focus); }
+
+.fade-up { opacity: 0; transform: translateY(6px); animation: fadeup 0.6s ease forwards; }
+@keyframes fadeup { to { opacity: 1; transform: none; } }
+
+ul { padding-left: 1.2em; }
+.small { font-size: 0.9em; color: var(--muted); }
+.kv { font-weight: bold; color: var(--gold); }

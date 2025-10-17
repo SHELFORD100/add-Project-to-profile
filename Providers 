@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Home — SOCIAL PROVIDERS CLUB | Inclusive Empowerment</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="accessibility.js" defer></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="container header">
+  <div class="brand">
+    <div class="logo">SPC</div>
+    <div>
+      <h1>SOCIAL PROVIDERS CLUB</h1>
+      <p>Togetherness • Inclusion • Respect</p>
+    </div>
+  </div><nav class="nav" aria-label="Main Navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="training.html">Training</a>
+    <a href="cybersecurity.html">Cybersecurity</a>
+    <a href="constitution.html">Constitution</a>
+    <a href="announcements.html">Announcements</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main id="main" class="container">
+  <section class="hero fade-up">
+    <div class="left">
+      <h2>Inclusive Empowerment Since 2015</h2>
+      <p>SOCIAL PROVIDERS CLUB is a community stokvel and training collective — dedicated to unity, responsible saving, and inclusion of people of all abilities. We support one another through knowledge, skills, and compassion.</p>
+      <button class="btn" onclick="window.location='training.html'">Explore Training</button>
+    </div>
+  </section>  <section class="grid">
+    <div class="card fade-up">
+      <h3 class="section-title">What We Do</h3>
+      <p>We unite members to contribute monthly, share in bulk purchases, and fund training sessions in digital literacy, accessibility, and entrepreneurship. Everyone is welcome — including visually and physically impaired individuals.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3 class="section-title">Quick Facts</h3>
+      <p><span class="kv">Founded:</span> 2015<br><span class="kv">Members:</span> 12+<br><span class="kv">Focus:</span> Empowerment, Community, Cyber Safety</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> SOCIAL PROVIDERS CLUB — Developed & Secured by <strong>SHELFORD100</strong></p>
+  </footer>
+</main>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Training — SOCIAL PROVIDERS CLUB</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="container header">
+  <div class="brand">
+    <div class="logo">SPC</div>
+    <div><h1>SOCIAL PROVIDERS CLUB</h1><p>Empowerment Through Skills</p></div>
+  </div><nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="training.html" class="active">Training</a>
+    <a href="cybersecurity.html">Cybersecurity</a>
+    <a href="constitution.html">Constitution</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+<section class="card fade-up">
+  <h2>Our Training Programs</h2>
+  <p>We run inclusive workshops and programs to help members and the broader community grow together.</p>
+
+  <ul>
+    <li><strong>Digital Literacy:</strong> Basic computer use, online safety, email, and digital payments.</li>
+    <li><strong>Assistive Technology:</strong> Tools and software to support blind or visually impaired members — screen readers, voice commands, and accessibility tools.</li>
+    <li><strong>Entrepreneurship Skills:</strong> Small business management, pricing, and cooperative marketing.</li>
+    <li><strong>Community Awareness:</strong> Health, environment, and cybersecurity awareness.</li>
+  </ul>  <p class="small">All training is open to members and community participants — inclusive of persons with disabilities.</p>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year2"></span> SOCIAL PROVIDERS CLUB — Developed & Secured by <strong>SHELFORD100</strong></p>
+</footer>
+</main>
+
+<script>document.getElementById("year2").textContent = new Date().getFullYear();</script>
+</body>
+</html><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Cybersecurity — SOCIAL PROVIDERS CLUB</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="container header">
+  <div class="brand">
+    <div class="logo">SPC</div>
+    <div><h1>SOCIAL PROVIDERS CLUB</h1><p>Safety & Trust Online</p></div>
+  </div><nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="training.html">Training</a>
+    <a href="cybersecurity.html" class="active">Cybersecurity</a>
+    <a href="constitution.html">Constitution</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+<section class="card fade-up">
+  <h2>Cybersecurity & Data Protection</h2>
+  <p>We take privacy and safety seriously. Every member commits to protecting personal data and using secure platforms for communication.</p>
+
+  <ul>
+    <li>Protect your passwords and never share them.</li>
+    <li>Use verified club channels for communication.</li>
+    <li>Report phishing or suspicious messages to the committee.</li>
+    <li>Assist members, especially those who are visually or technically challenged, to stay secure.</li>
+  </ul><p class="small">Our club maintains digital ethics aligned with South Africa’s POPIA and global data protection practices.</p>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year3"></span> SOCIAL PROVIDERS CLUB — Secured by <strong>SHELFORD100</strong></p>
+</footer>
+</main>
+
+<script>document.getElementById("year3").textContent = new Date().getFullYear();</script>
+</body>
+</html>:root {
+  --navy: #0b1a33;
+  --gold: #ffd700;
+  --white: #ffffff;
+  --focus: #00bfff;
+  --muted: #aab5c3;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--navy);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}header, footer {
+  background: #102a52;
+  text-align: center;
+  padding: 1em;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--navy);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}.nav a {
+  color: var(--gold);
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+.nav a:hover, .nav a.active {
+  background: rgba(255, 215, 0, 0.15);
+}
+
+.card {
+  background: #122a55;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  background: var(--gold);
+  color: var(--navy);
+  padding: 0.6em 1.2em;
+  border: none;font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover { background: #ffe25c; }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 0.5em;
+  z-index: 100;
+}.skip-link:focus { top: 0; }
+
+:focus { outline: 3px solid var(--focus// accessibility.js
+document.addEventListener('DOMContentLoaded', () => {
+  const controls = document.createElement('div');
+  controls.innerHTML = `
+    <div style="position:fixed;bottom:10px;right:10px;background:#102a52;padding:8px;border-radius:8px;color:#fff;font-size:13px;">
+      <button onclick="document.body.style.fontSize='larger'">A+</button>
+      <button onclick="document.body.style.fontSize='smaller'">A-</button>
+      <button onclick="toggleContrast()">🌓</button>
+    </div>`;
+  document.body.appendChild(controls);
+});
+
+function toggleContrast() {
+  document.body.classList.toggle('high-contrast');
+}
+document.addEventListener('keydown', e => {
+
+  if (e.altKey && e.key === '1') location.href = 'index.html';
+  if (e.altKey && e.key === '2') location.href = 'announcements.html';
+  if (e.altKey && e.key === '3') location.href = 'contact.html';
+});

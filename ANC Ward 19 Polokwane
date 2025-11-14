@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANC Ward 19 Polokwane – Official Site</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #000; color: #FFD700; }
+        header { background: #006400; padding: 1rem; text-align: center; }
+        nav { background: #000; padding: 1rem; text-align: center; }
+        nav a { color: #FFD700; margin: 0 1rem; text-decoration: none; }
+        main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        footer { background: #006400; padding: 1rem; text-align: center; }
+        form { background: #111; padding: 1rem; border-radius: 8px; }
+        input, textarea, select { width: 100%; padding: 0.5rem; margin: 0.5rem 0; }
+        button { background: #FFD700; color: #000; padding: 0.5rem 1rem; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/African_National_Congress_emblem.svg/200px-African_National_Congress_emblem.svg.png" alt="ANC Logo">
+        <h1>ANC Ward 19 – Polokwane Subregion</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#partners">Partners</a>
+        <a href="#programs">Programs</a>
+        <a href="#join">Join</a>
+        <a href="#constitution">Constitution</a>
+        <a href="#report">Report Issue</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to ANC Ward 19</h2>
+            <p>United in service for a better Polokwane. Viva ANC!</p>
+        </section>
+        <!-- Add other sections similarly: About, Partners (links), Programs (table), etc. -->
+        <section id="join">
+            <h2>Join ANC</h2>
+            <form action="https://formspree.io/f/your-email" method="POST"> <!-- Free form handler -->
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone">
+                <textarea name="why" placeholder="Why join?"></textarea>
+                <button type="submit">Join Now</button>
+            </form>
+        </section>
+        <section id="report">
+            <h2>Report Service Delivery Concern</h2>
+            <form action="https://formspree.io/f/your-email" method="POST">
+                <select name="issue">
+                    <option>Water Shortage</option>
+                    <option>Roads</option>
+                    <option>Waste Management</option>
+                    <option>Other</option>
+                </select>
+                <textarea name="description" placeholder="Describe issue" required></textarea>
+                <input type="text" name="location" placeholder="Location in Ward 19">
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="constitution">
+            <h2>ANC Constitution</h2>
+            <iframe src="https://www.anc1912.org.za/wp-content/uploads/2021/01/ANC-Constitution-2017.pdf" width="100%" height="600px"></iframe>
+        </section>
+        <!-- Partners: <a href="https://www.cosatu.org.za">COSATU</a> | <a href="https://www.sacp.org.za">SACP</a> -->
+    </main>
+    <footer>
+        <p>ANC Ward 19 | Tel: 015 291 2094 | © 2025 All Rights Reserved</p>
+    </footer>
+</body>
+</html>
